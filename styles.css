@@ -1,2 +1,26 @@
 
 /* Your CSS Code here. */
+hgroupeader { 
+     border:2px solid black; 
+ } 
+ header nav{ 
+ display:flex; 
+ justify-content: center; 
+ } 
+ nav ul{ 
+     list-style-type: none; 
+     display: flex; 
+     justify-content:space-around; 
+     align-items:center; 
+     /* border:2px solid black; */ 
+     font-size:1.5rem; 
+ } 
+ nav ul li{ 
+     margin:0 1rem; 
+ } 
+ nav ul li a{ 
+     text-decoration: none; 
+ } 
+ h1{ 
+     font-family:sans-serif; 
+ }
